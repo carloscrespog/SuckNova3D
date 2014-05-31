@@ -3,7 +3,8 @@
 *.lo
 *.o
 *.obj
-
+*.d
+*.bin
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -19,3 +20,7 @@
 *.exe
 *.out
 *.app
+
+*.cmake
+*.log
+*.marks

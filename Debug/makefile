@@ -44,7 +44,7 @@ all: SuckNova3D
 SuckNova3D: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "SuckNova3D" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/usr/lib -L/usr/lib/x86_64-linux-gnu -o "SuckNova3D" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

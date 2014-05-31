@@ -23,6 +23,12 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.97915731" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1466250164" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.1047544164" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.179434368" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/pcl-1.7"/>
+									<listOptionValue builtIn="false" value="/usr/include/eigen3"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.551545399" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.other.1431362909" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 " valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2036449895" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.107528102" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
@@ -32,6 +38,32 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1277141177" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1232536114" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+								<option id="gnu.cpp.link.option.paths.1523566707" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/usr/lib"/>
+									<listOptionValue builtIn="false" value="/usr/lib/x86_64-linux-gnu"/>
+								</option>
+								<option id="gnu.cpp.link.option.libs.1959368179" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="pcl_io"/>
+									<listOptionValue builtIn="false" value="boost_system"/>
+									<listOptionValue builtIn="false" value="pcl_apps"/>
+									<listOptionValue builtIn="false" value="pcl_common"/>
+									<listOptionValue builtIn="false" value="pcl_features"/>
+									<listOptionValue builtIn="false" value="pcl_filters"/>
+									<listOptionValue builtIn="false" value="pcl_io_ply"/>
+									<listOptionValue builtIn="false" value="pcl_kdtree"/>
+									<listOptionValue builtIn="false" value="pcl_keypoints"/>
+									<listOptionValue builtIn="false" value="pcl_octree"/>
+									<listOptionValue builtIn="false" value="pcl_outofcore"/>
+									<listOptionValue builtIn="false" value="pcl_people"/>
+									<listOptionValue builtIn="false" value="pcl_recognition"/>
+									<listOptionValue builtIn="false" value="pcl_registration"/>
+									<listOptionValue builtIn="false" value="pcl_sample_consensus"/>
+									<listOptionValue builtIn="false" value="pcl_search"/>
+									<listOptionValue builtIn="false" value="pcl_segmentation"/>
+									<listOptionValue builtIn="false" value="pcl_surface"/>
+									<listOptionValue builtIn="false" value="pcl_tracking"/>
+									<listOptionValue builtIn="false" value="pcl_visualization"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.171260131" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -117,4 +149,5 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
 </cproject>
